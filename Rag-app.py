@@ -74,4 +74,4 @@ if uploaded_file is not None:
         if query:
             # Step 6: Get the answer from Gemini LLM with the context of the PDF
             response = query_with_cag(st.session_state.pdf_text, query)
-            st.write("Answer:", response)
+            st.write("Answer:" response)
